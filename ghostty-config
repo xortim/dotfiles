@@ -1,0 +1,41 @@
+# This is the configuration file for Ghostty.
+#
+# This template file has been automatically created at the following
+# path since Ghostty couldn't find any existing config files on your system:
+#
+#   ${HOME}/Library/Application Support/com.mitchellh.ghostty/config
+#
+#
+# Run `ghostty +show-config --default --docs` to view a list of
+# all available config options and their default values.
+#
+# Additionally, each config option is also explained in detail
+# on Ghostty's website, at https://ghostty.org/docs/config.
+#
+# Ghostty can reload the configuration while running by using the menu
+# options or the bound key (default: Command + Shift + comma on macOS and
+# Control + Shift + comma on other platforms). Not all config options can be
+# reloaded while running; some only apply to new windows and others may require
+# a full restart to take effect.
+
+# Config syntax crash course
+# ==========================
+# # The config file consists of simple key-value pairs,
+# # separated by equals signs.
+font-family = Hack Nerd Font
+#theme = Molokai
+#theme = Catppuccin Mocha
+#theme = Dracula
+theme = tokyonight_night
+cursor-style = block
+shell-integration = "zsh"
+shell-integration-features = no-cursor
+macos-titlebar-proxy-icon = "hidden"
+window-padding-y = 10,1
+window-padding-x = 10,1
+scrollbar = system
+bell-features = system
+minimum-contrast = 1.01
+mouse-shift-capture = false
+
+
