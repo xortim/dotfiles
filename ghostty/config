@@ -1,0 +1,12 @@
+font-family = Hack Nerd Font
+theme = TokyoNight Night
+cursor-style = block
+shell-integration = "zsh"
+shell-integration-features = no-cursor
+macos-titlebar-proxy-icon = "hidden"
+window-padding-y = 10,1
+window-padding-x = 10,1
+scrollbar = system
+bell-features = system
+minimum-contrast = 1.01
+mouse-shift-capture = false
