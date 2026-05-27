@@ -12,6 +12,7 @@ export EDITOR=nvim
 export GIT_EDITOR=nvim
 export GOPATH="${HOME}/go"
 export PATH="${PATH}:$GOPATH/bin"
+export SSH_AUTH_SOCK="${HOME}/.1password/agent.sock"
 
 export GREP_COLOR='38;2;192;202;245;48;2;54;74;130'
 
